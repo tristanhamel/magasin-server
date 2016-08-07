@@ -1,0 +1,17 @@
+[
+  {
+  "name": "product1",
+  "bids": [],
+  "deadline": "",
+  "description": "a super product",
+  "startPrice": 10,
+  "images": "some_url"
+  }, {
+  "name": "product2",
+  "bids": [],
+  "deadline": "",
+  "description": "a super cheap product2",
+  "startPrice": 0.1,
+  "images": "some_url"
+  }
+]

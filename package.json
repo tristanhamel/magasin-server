@@ -1,0 +1,28 @@
+{
+  "name": "magasin-server",
+  "version": "1.0.0",
+  "description": "node server for magasin-acadien",
+  "main": "server/app.js",
+  "scripts": {
+    "dev": "nodemon server/app.js",
+    "start": "node server/app.js",
+    "test": "grunt test"
+  },
+  "author": "Tristan Hamel",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "errorhandler": "^1.4.3",
+    "express": "^4.14.0",
+    "lodash": "^4.14.1",
+    "method-override": "^2.3.6",
+    "mongodb": "^2.2.5",
+    "mongoose": "^4.5.8",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "dotenv": "^2.0.0"
+  }
+}
